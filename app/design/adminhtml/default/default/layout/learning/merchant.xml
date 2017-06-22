@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="setCanLoadExtJs"><flag>1</flag></action>
+            <action method="setCanLoadTinyMce"><flag>1</flag></action>
+            <action method="addJs"><script>mage/adminhtml/variables.js</script></action>
+            <action method="addJs"><script>mage/adminhtml/wysiwyg/widget.js</script></action>
+            <action method="addJs"><script>lib/flex.js</script></action>
+            <action method="addJs"><script>lib/FABridge.js</script></action>
+            <action method="addJs"><script>mage/adminhtml/flexuploader.js</script></action>
+            <action method="addJs"><script>mage/adminhtml/browser.js</script></action>
+            <action method="addJs"><script>prototype/window.js</script></action>
+            <action method="addJs"><script>prototype/prototype.js</script></action>
+            <action method="addItem"><type>js_css</type><name>prototype/windows/themes/default.css</name></action>
+            <action method="addItem"><type>js_css</type><name>prototype/windows/themes/magento.css</name></action>
+        </reference>
+    </default>
+    <adminhtml_merchant_merchantman_index>
+        <reference name="content">
+            <block type="learning_merchant/adminhtml_merchantman" name="learning_merchant_adminhtml_merchantman"></block>
+        </reference>
+    </adminhtml_merchant_merchantman_index>
+    <adminhtml_merchant_merchantman_edit>
+        <reference name="content">
+            <block type="learning_merchant/adminhtml_merchantman_edit" name="learning_merchant_adminhtml_merchantman_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="learning_merchant/adminhtml_merchantman_edit_tabs" name="learning_merchant_adminhtml_merchantman_edit_tabs">
+                <block type="learning_merchant/adminhtml_merchantman_edit_tab_form" name="learning_merchant_adminhtml_merchantman_edit_tab_form" />
+                <action method="addTab">
+                    <name>main_section</name>
+                    <block>learning_merchant_adminhtml_merchantman_edit_tab_form</block>
+                </action>
+            </block>
+        </reference>
+    </adminhtml_merchant_merchantman_edit>
+    <adminhtml_merchant_merchantman_products>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="learning_merchant/adminhtml_merchantman_edit_tab_product" name="merchantman.edit.tab.product"/>
+            <block type="adminhtml/widget_grid_serializer" name="product_grid_serializer">
+                <reference name="product_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>merchantman.edit.tab.product</grid_block_name>
+                            <data_callback>getSelectedProducts</data_callback>
+                            <hidden_input_name>products</hidden_input_name>
+                            <reload_param_name>merchantman_products</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </adminhtml_merchant_merchantman_products>
+    <adminhtml_merchant_merchantman_productsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="learning_merchant/adminhtml_merchantman_edit_tab_product" name="merchantman.edit.tab.product"/>
+        </block>
+    </adminhtml_merchant_merchantman_productsgrid>
+</layout>

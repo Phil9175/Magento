@@ -1,0 +1,543 @@
+2017-06-22T19:26:42+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 134.00
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento-esgi.dev/paypal/express/return/
+            [CANCELURL] => http://magento-esgi.dev/paypal/express/cancel/
+            [INVNUM] => 200000001
+            [SOLUTIONTYPE] => Mark
+            [GIROPAYCANCELURL] => http://magento-esgi.dev/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento-esgi.dev/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento-esgi.dev/checkout/onepage/success/
+            [LOCALECODE] => fr_FR
+            [ITEMAMT] => 134.00
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => mtk004xs
+            [L_NAME0] => Chelsea Tee
+            [L_QTY0] => 1
+            [L_AMT0] => 134.00
+            [BUSINESS] => 
+            [NOTETEXT] => 
+            [EMAIL] => philgranger@orange.fr
+            [FIRSTNAME] => philippe
+            [LASTNAME] => granger
+            [MIDDLENAME] => 
+            [SALUTATION] => 
+            [SUFFIX] => 
+            [COUNTRYCODE] => FR
+            [STATE] => 91
+            [CITY] => L'Hay Les Roses
+            [STREET] => 90 rue danton
+            [ZIP] => 91210
+            [PHONENUM] => 659934463
+            [SHIPTOCOUNTRYCODE] => FR
+            [SHIPTOSTATE] => 91
+            [SHIPTOCITY] => L'Hay Les Roses
+            [SHIPTOSTREET] => 90 rue danton
+            [SHIPTOZIP] => 91210
+            [SHIPTOPHONENUM] => 659934463
+            [SHIPTOSTREET2] => 90 rue danton
+            [STREET2] => 90 rue danton
+            [SHIPTONAME] => philippe granger
+            [ADDROVERRIDE] => 1
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-3GT697516K588442E
+            [TIMESTAMP] => 2017-06-22T19:26:42Z
+            [CORRELATIONID] => d9f05fa3dbb33
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+        )
+
+    [__pid] => 42279
+)
+
+2017-06-22T19:28:11+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 134.00
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento-esgi.dev/paypal/express/return/
+            [CANCELURL] => http://magento-esgi.dev/paypal/express/cancel/
+            [INVNUM] => 200000001
+            [SOLUTIONTYPE] => Mark
+            [GIROPAYCANCELURL] => http://magento-esgi.dev/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento-esgi.dev/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento-esgi.dev/checkout/onepage/success/
+            [LOCALECODE] => fr_FR
+            [ITEMAMT] => 134.00
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => mtk004xs
+            [L_NAME0] => Chelsea Tee
+            [L_QTY0] => 1
+            [L_AMT0] => 134.00
+            [BUSINESS] => 
+            [NOTETEXT] => 
+            [EMAIL] => philgranger@orange.fr
+            [FIRSTNAME] => philippe
+            [LASTNAME] => granger
+            [MIDDLENAME] => 
+            [SALUTATION] => 
+            [SUFFIX] => 
+            [COUNTRYCODE] => FR
+            [STATE] => 91
+            [CITY] => L'Hay Les Roses
+            [STREET] => 90 rue danton
+            [ZIP] => 91210
+            [PHONENUM] => 659934463
+            [SHIPTOCOUNTRYCODE] => FR
+            [SHIPTOSTATE] => 91
+            [SHIPTOCITY] => L'Hay Les Roses
+            [SHIPTOSTREET] => 90 rue danton
+            [SHIPTOZIP] => 91210
+            [SHIPTOPHONENUM] => 659934463
+            [SHIPTOSTREET2] => 90 rue danton
+            [STREET2] => 90 rue danton
+            [SHIPTONAME] => philippe granger
+            [ADDROVERRIDE] => 1
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-12N95625YD5447738
+            [TIMESTAMP] => 2017-06-22T19:28:10Z
+            [CORRELATIONID] => 2802699f5ba6b
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+        )
+
+    [__pid] => 41819
+)
+
+2017-06-22T19:32:16+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 134.00
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento-esgi.dev/paypal/express/return/
+            [CANCELURL] => http://magento-esgi.dev/paypal/express/cancel/
+            [INVNUM] => 200000001
+            [SOLUTIONTYPE] => Mark
+            [GIROPAYCANCELURL] => http://magento-esgi.dev/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento-esgi.dev/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento-esgi.dev/checkout/onepage/success/
+            [LOCALECODE] => fr_FR
+            [ITEMAMT] => 134.00
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => mtk004xs
+            [L_NAME0] => Chelsea Tee
+            [L_QTY0] => 1
+            [L_AMT0] => 134.00
+            [BUSINESS] => 
+            [NOTETEXT] => 
+            [EMAIL] => philgranger@orange.fr
+            [FIRSTNAME] => philippe
+            [LASTNAME] => granger
+            [MIDDLENAME] => 
+            [SALUTATION] => 
+            [SUFFIX] => 
+            [COUNTRYCODE] => FR
+            [STATE] => 91
+            [CITY] => L'Hay Les Roses
+            [STREET] => 90 rue danton
+            [ZIP] => 91210
+            [PHONENUM] => 659934463
+            [SHIPTOCOUNTRYCODE] => FR
+            [SHIPTOSTATE] => 91
+            [SHIPTOCITY] => L'Hay Les Roses
+            [SHIPTOSTREET] => 90 rue danton
+            [SHIPTOZIP] => 91210
+            [SHIPTOPHONENUM] => 659934463
+            [SHIPTOSTREET2] => 90 rue danton
+            [STREET2] => 90 rue danton
+            [SHIPTONAME] => philippe granger
+            [ADDROVERRIDE] => 1
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-1X444566FV677764G
+            [TIMESTAMP] => 2017-06-22T19:32:16Z
+            [CORRELATIONID] => 9a2ca181054a
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+        )
+
+    [__pid] => 42615
+)
+
+2017-06-22T19:33:01+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 134.00
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento-esgi.dev/paypal/express/return/
+            [CANCELURL] => http://magento-esgi.dev/paypal/express/cancel/
+            [INVNUM] => 200000001
+            [SOLUTIONTYPE] => Mark
+            [GIROPAYCANCELURL] => http://magento-esgi.dev/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento-esgi.dev/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento-esgi.dev/checkout/onepage/success/
+            [LOCALECODE] => fr_FR
+            [ITEMAMT] => 134.00
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => mtk004xs
+            [L_NAME0] => Chelsea Tee
+            [L_QTY0] => 1
+            [L_AMT0] => 134.00
+            [BUSINESS] => 
+            [NOTETEXT] => 
+            [EMAIL] => philgranger@orange.fr
+            [FIRSTNAME] => philippe
+            [LASTNAME] => granger
+            [MIDDLENAME] => 
+            [SALUTATION] => 
+            [SUFFIX] => 
+            [COUNTRYCODE] => FR
+            [STATE] => 91
+            [CITY] => L'Hay Les Roses
+            [STREET] => 90 rue danton
+            [ZIP] => 91210
+            [PHONENUM] => 659934463
+            [SHIPTOCOUNTRYCODE] => FR
+            [SHIPTOSTATE] => 91
+            [SHIPTOCITY] => L'Hay Les Roses
+            [SHIPTOSTREET] => 90 rue danton
+            [SHIPTOZIP] => 91210
+            [SHIPTOPHONENUM] => 659934463
+            [SHIPTOSTREET2] => 90 rue danton
+            [STREET2] => 90 rue danton
+            [SHIPTONAME] => philippe granger
+            [ADDROVERRIDE] => 1
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-8RW252082N413842G
+            [TIMESTAMP] => 2017-06-22T19:33:00Z
+            [CORRELATIONID] => 2ec9b9095b0ad
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+        )
+
+    [__pid] => 41821
+)
+
+2017-06-22T19:35:04+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 75.00
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento-esgi.dev/paypal/express/return/
+            [CANCELURL] => http://magento-esgi.dev/paypal/express/cancel/
+            [INVNUM] => 200000002
+            [SOLUTIONTYPE] => Mark
+            [GIROPAYCANCELURL] => http://magento-esgi.dev/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento-esgi.dev/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento-esgi.dev/checkout/onepage/success/
+            [LOCALECODE] => fr_FR
+            [ITEMAMT] => 68.81
+            [TAXAMT] => 6.19
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => mtk000
+            [L_NAME0] => Chelsea Tee
+            [L_QTY0] => 1
+            [L_AMT0] => 75.00
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TIMESTAMP] => 2017-06-22T19:35:03Z
+            [CORRELATIONID] => 703b527071918
+            [ACK] => Failure
+            [VERSION] => 72.0
+            [BUILD] => 000000
+            [L_ERRORCODE0] => 10413
+            [L_SHORTMESSAGE0] => Transaction refused because of an invalid argument. See additional error messages for details.
+            [L_LONGMESSAGE0] => The totals of the cart item amounts do not match order amounts.
+            [L_SEVERITYCODE0] => Error
+        )
+
+    [__pid] => 42055
+)
+
+2017-06-22T19:37:57+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 85.00
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento-esgi.dev/paypal/express/return/
+            [CANCELURL] => http://magento-esgi.dev/paypal/express/cancel/
+            [INVNUM] => 200000002
+            [SOLUTIONTYPE] => Mark
+            [GIROPAYCANCELURL] => http://magento-esgi.dev/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento-esgi.dev/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento-esgi.dev/checkout/onepage/success/
+            [LOCALECODE] => fr_FR
+            [ITEMAMT] => 75.00
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 10.00
+            [L_NUMBER0] => mtk000
+            [L_NAME0] => Chelsea Tee
+            [L_QTY0] => 1
+            [L_AMT0] => 75.00
+            [BUSINESS] => 
+            [NOTETEXT] => 
+            [EMAIL] => philgranger@orange.fr
+            [FIRSTNAME] => philippe
+            [LASTNAME] => granger
+            [MIDDLENAME] => 
+            [SALUTATION] => 
+            [SUFFIX] => 
+            [COUNTRYCODE] => FR
+            [STATE] => 91
+            [CITY] => L'Hay Les Roses
+            [STREET] => 90 rue danton
+            [ZIP] => 91210
+            [PHONENUM] => 659934463
+            [SHIPTOCOUNTRYCODE] => FR
+            [SHIPTOSTATE] => 91
+            [SHIPTOCITY] => L'Hay Les Roses
+            [SHIPTOSTREET] => 90 rue danton
+            [SHIPTOZIP] => 91210
+            [SHIPTOPHONENUM] => 659934463
+            [SHIPTOSTREET2] => 90 rue danton
+            [STREET2] => 90 rue danton
+            [SHIPTONAME] => philippe granger
+            [ADDROVERRIDE] => 1
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-9CR37399S8047750W
+            [TIMESTAMP] => 2017-06-22T19:37:57Z
+            [CORRELATIONID] => 7209c4ab2042b
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+        )
+
+    [__pid] => 42246
+)
+
+2017-06-22T19:38:44+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [GetExpressCheckoutDetails] => Array
+        (
+            [TOKEN] => EC-9CR37399S8047750W
+            [METHOD] => GetExpressCheckoutDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-9CR37399S8047750W
+            [BILLINGAGREEMENTACCEPTEDSTATUS] => 0
+            [CHECKOUTSTATUS] => PaymentActionNotInitiated
+            [TIMESTAMP] => 2017-06-22T19:38:44Z
+            [CORRELATIONID] => 65ca8cafd4e31
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+            [EMAIL] => acheteur2@myseoptimizer.fr
+            [PAYERID] => VPG7G9Q9WMES8
+            [PAYERSTATUS] => verified
+            [FIRSTNAME] => philippe
+            [LASTNAME] => granger
+            [COUNTRYCODE] => FR
+            [SHIPTONAME] => philippe granger
+            [SHIPTOSTREET] => 90 rue danton
+            [SHIPTOSTREET2] => 90 rue danton
+            [SHIPTOCITY] => L'Hay Les Roses
+            [SHIPTOSTATE] => 91
+            [SHIPTOZIP] => 91210
+            [SHIPTOCOUNTRYCODE] => FR
+            [SHIPTOPHONENUM] => 659934463
+            [SHIPTOCOUNTRYNAME] => France
+            [ADDRESSSTATUS] => Confirmed
+            [CURRENCYCODE] => USD
+            [AMT] => 85.00
+            [ITEMAMT] => 75.00
+            [SHIPPINGAMT] => 10.00
+            [HANDLINGAMT] => 0.00
+            [TAXAMT] => 0.00
+            [INVNUM] => 200000002
+            [INSURANCEAMT] => 0.00
+            [SHIPDISCAMT] => 0.00
+            [INSURANCEOPTIONOFFERED] => false
+            [L_NAME0] => Chelsea Tee
+            [L_NUMBER0] => mtk000
+            [L_QTY0] => 1
+            [L_TAXAMT0] => 0.00
+            [L_AMT0] => 75.00
+            [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+            [PAYMENTREQUEST_0_AMT] => 85.00
+            [PAYMENTREQUEST_0_ITEMAMT] => 75.00
+            [PAYMENTREQUEST_0_SHIPPINGAMT] => 10.00
+            [PAYMENTREQUEST_0_HANDLINGAMT] => 0.00
+            [PAYMENTREQUEST_0_TAXAMT] => 0.00
+            [PAYMENTREQUEST_0_INVNUM] => 200000002
+            [PAYMENTREQUEST_0_INSURANCEAMT] => 0.00
+            [PAYMENTREQUEST_0_SHIPDISCAMT] => 0.00
+            [PAYMENTREQUEST_0_SELLERPAYPALACCOUNTID] => merchant@esgi-magento.com
+            [PAYMENTREQUEST_0_INSURANCEOPTIONOFFERED] => false
+            [PAYMENTREQUEST_0_SHIPTONAME] => philippe granger
+            [PAYMENTREQUEST_0_SHIPTOSTREET] => 90 rue danton
+            [PAYMENTREQUEST_0_SHIPTOSTREET2] => 90 rue danton
+            [PAYMENTREQUEST_0_SHIPTOCITY] => L'Hay Les Roses
+            [PAYMENTREQUEST_0_SHIPTOSTATE] => 91
+            [PAYMENTREQUEST_0_SHIPTOZIP] => 91210
+            [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => FR
+            [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 659934463
+            [PAYMENTREQUEST_0_SHIPTOCOUNTRYNAME] => France
+            [PAYMENTREQUEST_0_ADDRESSSTATUS] => Confirmed
+            [L_PAYMENTREQUEST_0_NAME0] => Chelsea Tee
+            [L_PAYMENTREQUEST_0_NUMBER0] => mtk000
+            [L_PAYMENTREQUEST_0_QTY0] => 1
+            [L_PAYMENTREQUEST_0_TAXAMT0] => 0.00
+            [L_PAYMENTREQUEST_0_AMT0] => 75.00
+            [PAYMENTREQUESTINFO_0_ERRORCODE] => 0
+        )
+
+    [__pid] => 42630
+)
+
+2017-06-22T19:39:12+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [DoExpressCheckoutPayment] => Array
+        (
+            [TOKEN] => EC-9CR37399S8047750W
+            [PAYERID] => VPG7G9Q9WMES8
+            [PAYMENTACTION] => Authorization
+            [AMT] => 85.00
+            [CURRENCYCODE] => USD
+            [BUTTONSOURCE] => Magento_Cart_Community
+            [NOTIFYURL] => http://magento-esgi.dev/paypal/ipn/
+            [RETURNFMFDETAILS] => 1
+            [ITEMAMT] => 75.00
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 10.00
+            [L_NUMBER0] => mtk000
+            [L_NAME0] => Chelsea Tee
+            [L_QTY0] => 1
+            [L_AMT0] => 75.00
+            [METHOD] => DoExpressCheckoutPayment
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-9CR37399S8047750W
+            [SUCCESSPAGEREDIRECTREQUESTED] => false
+            [TIMESTAMP] => 2017-06-22T19:39:11Z
+            [CORRELATIONID] => d4ea23a4c7f2d
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+            [TRANSACTIONID] => 4JC62858X3866921V
+            [TRANSACTIONTYPE] => cart
+            [PAYMENTTYPE] => instant
+            [ORDERTIME] => 2017-06-22T19:39:11Z
+            [AMT] => 85.00
+            [TAXAMT] => 0.00
+            [CURRENCYCODE] => USD
+            [PAYMENTSTATUS] => Pending
+            [PENDINGREASON] => authorization
+            [REASONCODE] => None
+            [PROTECTIONELIGIBILITY] => Eligible
+            [INSURANCEOPTIONSELECTED] => false
+            [SHIPPINGOPTIONISDEFAULT] => false
+            [PAYMENTINFO_0_TRANSACTIONID] => 4JC62858X3866921V
+            [PAYMENTINFO_0_TRANSACTIONTYPE] => cart
+            [PAYMENTINFO_0_PAYMENTTYPE] => instant
+            [PAYMENTINFO_0_ORDERTIME] => 2017-06-22T19:39:11Z
+            [PAYMENTINFO_0_AMT] => 85.00
+            [PAYMENTINFO_0_TAXAMT] => 0.00
+            [PAYMENTINFO_0_CURRENCYCODE] => USD
+            [PAYMENTINFO_0_PAYMENTSTATUS] => Pending
+            [PAYMENTINFO_0_PENDINGREASON] => authorization
+            [PAYMENTINFO_0_REASONCODE] => None
+            [PAYMENTINFO_0_PROTECTIONELIGIBILITY] => Eligible
+            [PAYMENTINFO_0_PROTECTIONELIGIBILITYTYPE] => ItemNotReceivedEligible,UnauthorizedPaymentEligible
+            [PAYMENTINFO_0_SECUREMERCHANTACCOUNTID] => ZTGP6MBMZG7PE
+            [PAYMENTINFO_0_ERRORCODE] => 0
+            [PAYMENTINFO_0_ACK] => Success
+        )
+
+    [__pid] => 42640
+)
+
